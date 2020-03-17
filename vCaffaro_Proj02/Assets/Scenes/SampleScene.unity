@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f95b7ebc2fb443546be9ebde606f5d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 1.4
   bullet: {fileID: 8324202771938736176, guid: ae059c5cc1dd76c47a8c80de825dcc1b, type: 3}
 --- !u!58 &1285536816
 CircleCollider2D:
@@ -1055,8 +1055,8 @@ MonoBehaviour:
   ratioEnemy2: 1
   enemy: {fileID: 7296278761728399871, guid: 7b790cd22dc84924499d5bf040909af8, type: 3}
   enemy2: {fileID: 7426534803754458818, guid: 5220b5d5049c722498e713262e973b79, type: 3}
-  timerMin: 20
-  timerMax: 50
+  timerMin: 35
+  timerMax: 70
 --- !u!4 &1652600461
 Transform:
   m_ObjectHideFlags: 0

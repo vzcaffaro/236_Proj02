@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6895520283085371587}
   - component: {fileID: 1539598053821863948}
   - component: {fileID: 121750560224065923}
+  - component: {fileID: 1102126797852767178}
   m_Layer: 9
   m_Name: Enemy2
   m_TagString: Enemy
@@ -155,9 +156,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aac6aa37a1766041a8c68f6965e1f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.2
+  speed: -0.15
   bullet1: {fileID: 4396672868289321263, guid: 141135010cbd11240a3c6c87a38c7f9a, type: 3}
   bullet2: {fileID: 8196842315347044991, guid: d3041dfa07882b544a6aa3ee82a3d398, type: 3}
   timerMin: 25
   timerMax: 50
   canFireBullets: 1
+--- !u!95 &1102126797852767178
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426534803754458818}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3683123d695dd8f49acfa402a8138b8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
